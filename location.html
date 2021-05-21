@@ -8,7 +8,7 @@
       <link rel="stylesheet" href="./css/location.css" />
      <script type="text/javascript" src="./js/location.js"></script>
       <!--GoogleMap API -->
-     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvgCqN_7vWEhgillCQj4SnXdEdkcLsXfM&callback=initMap" defer>
+<!--      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvgCqN_7vWEhgillCQj4SnXdEdkcLsXfM&callback=initMap" defer> -->
      </script>
     </head>
     <body>
@@ -75,10 +75,13 @@
                             <h3 class="location-title">Contact Us</h3>
                             <div class="location-desc">
                             <p>111 Yonge Street</p>
-                            <p>Toronto A1A 1A2</p>
-                            <p>Phone: 416.111.1111</p>
-                            <a class="email" href="#">info@aroma.com</a>
+                            <p>Toronto, Ontario  A1A 1A2</p>
+                            <p>Phone: (416) 111-1111</p>
+                            <p>Email: <a class="email" href="#">info@aroma.com</a></p>
+                            <div id="btn-div">
+                                <button id="map-btn" type="button">Enlarge Map</button>
                             </div>
+                        </div>
                             <!--<p><span class="bold">General Manager </span><span>: Jerrin Eldo Mazhuvancherry</span></p>
                             <p><span class="bold">Kitchen Manager </span><span>: Monica Geller</span></p>
                             <p><span class="bold">Take Out </span><span>: Yes - phone in</span></p>
@@ -88,7 +91,9 @@
                         </div>
                         
                     </div>
-                    <div id="map"></div>
+                    <div id="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.874437577842!2d-79.3806447851196!3d43.65078066060625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb32e5503ab9%3A0xd922bf0aef4a5b59!2s111%20Yonge%20St%2C%20Toronto%2C%20ON%20M5C%201W4!5e0!3m2!1sen!2sca!4v1621633906854!5m2!1sen!2sca" width="430 " height="325" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
                 </section>
            </div>
 <!--VVVVV END OF UNIQUE PAGE CONTENT  VVVVV-->

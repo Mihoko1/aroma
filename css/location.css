@@ -98,13 +98,6 @@ a:hover{
     margin: 0;
 }
 
-.locationDetails {
-    width: 50%;
-    height: 300px;
-    margin-bottom: 2em;
-    color:black;
-}
-
 
 .bold {
     font-weight: bolder;
@@ -171,3 +164,36 @@ a:hover{
 .bookTable {
     display: none;
 }*/
+
+.locationDetails {
+    width: 50%;
+    height: 300px;
+    margin-bottom: 2em;
+    color:black;
+    display: inline-block;
+    vertical-align: top;;
+}
+
+#map-container {
+    display: inline-block;
+    vertical-align:top;
+    border: 1px solid black;
+}
+
+#btn-div {
+    margin: 1em 0;
+}
+
+#map-btn {
+    font-size: 1rem;
+    background-color: #901100;
+    color: white;
+    padding: .8rem;
+    border: none;
+    cursor:pointer;
+}
+
+#map-btn:hover {
+    background-color: black;
+
+}
