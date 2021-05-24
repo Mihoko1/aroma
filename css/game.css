@@ -35,9 +35,10 @@
 }
 
 .contest-container{
- max-width: 1200px;
- margin: 0 auto;
- height: 400px;
+ max-width: 80%;
+ margin: 50px auto 100px;
+ /* height: 400px; */
+ display: flex;
 }
 
 .coloring {
@@ -60,20 +61,17 @@
 }
 
 .game-details {
-float: left;
+/* float: left; */
 width: 50%;;
 height: 20em;
-position: relative;
+/* position: relative; */
 top: 2em;
 }
 
 .game-details img{
-    width: 150px;
-    height: 150px;
-    position: relative;
-    right: 4em;
-    top: -2.2em;
-    float: right;
+    width: 100%;
+    
+   
     object-fit: cover;
 }
 .game-details h3 {
@@ -91,10 +89,10 @@ top: 2em;
 }
 
 .pizza-container {
-    float: right;
+    /* float: right; */
     width: 45%;
-    height: 20em;
-    position: relative;
+    /* height: 20em;
+    position: relative; */
     top: 2em;
     padding-left: 2em;
 }
@@ -104,7 +102,7 @@ margin-top: 0;
 }
 
 #gamediv{
-    float: left;
+    /* float: left; */
     margin-right: 2em;
     width: 16em;
     height: 16em;
