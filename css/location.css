@@ -31,6 +31,7 @@
     transform: translate(-50%);
     top: 50%;
     z-index: 1;
+    border-bottom: 2px solid #837a3a;
 }
 
 /* MAIN*/
@@ -46,7 +47,8 @@ main {
     background-color: white;
 }
 .location-desc{
-    font-size: 1.4em;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
     text-align: left;
 }
 #map {
@@ -57,14 +59,30 @@ main {
     top: 0;
 }
 
-.location-title {
-    font-size: 1.6em;
-    text-align: left;
-    margin-left: 0em;
+.location-title{
+    font-size: 2em;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 0;
+  }
 
+  .location-title:before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -10px; 
+    display: inline-block;
+    width: 50px; 
+    height: 4px; 
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translate(-50%); 
+    background-color: #837A3A;
 }
 
 a{
+    color: #837A3A;
     text-decoration: underline;
 }
 
@@ -87,14 +105,6 @@ a:hover{
 }
 
 #location-maps h2 {
-    margin: 0;
-}
-
-.locationDetails h3 {
-    text-decoration: underline;
-    font-style: normal;
-    padding-left: -1em;
-    padding: 0;
     margin: 0;
 }
 
@@ -181,7 +191,7 @@ a:hover{
 }
 
 #btn-div {
-    margin: 1em 0;
+    margin: 40px auto;
 }
 
 #map-btn {
@@ -191,6 +201,9 @@ a:hover{
     padding: .8rem;
     border: none;
     cursor:pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #map-btn:hover {
